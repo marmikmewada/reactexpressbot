@@ -1,0 +1,42 @@
+[
+  {
+    "items": [
+      {
+        "name": "chicken bucket",
+        "price": 10.99,
+        "quantity": 1
+      },
+      {
+        "name": "fries",
+        "price": 2.99,
+        "quantity": 1
+      },
+      {
+        "name": "cola",
+        "price": 1.49,
+        "quantity": 1
+      }
+    ],
+    "address": "sec 13"
+  },
+  {
+    "items": [
+      {
+        "name": "chicken bucket",
+        "price": 10.99,
+        "quantity": 4
+      },
+      {
+        "name": "cola",
+        "price": 1.49,
+        "quantity": 2
+      },
+      {
+        "name": "fries",
+        "price": 2.99,
+        "quantity": 1
+      }
+    ],
+    "address": "sec 13 st ksjdfhkjsd"
+  }
+]

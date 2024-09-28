@@ -1,0 +1,214 @@
+/* :root {
+  --primary-color: #e4002b;
+  --secondary-color: #f8f8f8;
+  --background-color: #1a1a1a;
+  --text-color: #ffffff;
+  --chat-user-bg: #2c2c2c;
+  --chat-bot-bg: #3a3a3a;
+  --input-bg: #2c2c2c;
+  --button-hover: #c5001f;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.App-header {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: var(--primary-color);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.chat-container {
+  width: 100%;
+  max-width: 600px;
+  background-color: var(--secondary-color);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.chat-history {
+  height: 400px;
+  overflow-y: auto;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-history::-webkit-scrollbar {
+  width: 6px;
+}
+
+.chat-history::-webkit-scrollbar-thumb {
+  background-color: var(--primary-color);
+  border-radius: 3px;
+}
+
+.user, .bot {
+  max-width: 80%;
+  margin-bottom: 1rem;
+  padding: 0.8rem 1rem;
+  border-radius: 18px;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.user {
+  align-self: flex-end;
+  background-color: var(--chat-user-bg);
+  color: var(--text-color);
+  border-bottom-right-radius: 4px;
+}
+
+.bot {
+  align-self: flex-start;
+  background-color: var(--chat-bot-bg);
+  color: var(--text-color);
+  border-bottom-left-radius: 4px;
+}
+
+form {
+  display: flex;
+  padding: 1rem;
+  background-color: var(--input-bg);
+}
+
+input[type="text"] {
+  flex-grow: 1;
+  padding: 0.8rem 1rem;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  background-color: var(--secondary-color);
+  color: var(--background-color);
+}
+
+input[type="text"]:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px var(--primary-color);
+}
+
+button {
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 25px;
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 0.5rem;
+}
+
+button:hover {
+  background-color: var(--button-hover);
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+  color: var(--primary-color);
+}
+
+.menu-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.menu-item {
+  background-color: var(--chat-user-bg);
+  border-radius: 8px;
+  padding: 0.8rem;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.menu-item:hover {
+  transform: translateY(-5px);
+}
+
+.bucket-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--chat-bot-bg);
+  border-radius: 8px;
+  padding: 0.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.bucket-item span {
+  flex-grow: 1;
+}
+
+.bucket-item button {
+  padding: 0.4rem 0.8rem;
+  font-size: 0.9rem;
+  margin-left: 0.5rem;
+}
+
+.confirm-order {
+  display: block;
+  width: 100%;
+  margin-top: 1rem;
+  padding: 1rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+@media (max-width: 600px) {
+  .App-header {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .chat-history {
+    height: 300px;
+  }
+
+  .user, .bot {
+    font-size: 0.8rem;
+    padding: 0.6rem 0.8rem;
+  }
+
+  input[type="text"], button {
+    font-size: 0.9rem;
+    padding: 0.6rem 1rem;
+  }
+
+  .menu-container {
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  }
+} */
